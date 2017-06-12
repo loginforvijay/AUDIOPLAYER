@@ -15,6 +15,7 @@
 		842054E81EEE746500EE08E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842054E61EEE746500EE08E3 /* LaunchScreen.storyboard */; };
 		842054F31EEE746500EE08E3 /* AudioplayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842054F21EEE746500EE08E3 /* AudioplayerTests.swift */; };
 		842054FE1EEE746500EE08E3 /* AudioplayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842054FD1EEE746500EE08E3 /* AudioplayerUITests.swift */; };
+		8420550C1EEE75BE00EE08E3 /* vandemataram.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8420550B1EEE75BE00EE08E3 /* vandemataram.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		842054F91EEE746500EE08E3 /* AudioplayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioplayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842054FD1EEE746500EE08E3 /* AudioplayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioplayerUITests.swift; sourceTree = "<group>"; };
 		842054FF1EEE746500EE08E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8420550B1EEE75BE00EE08E3 /* vandemataram.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vandemataram.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				842054DA1EEE746500EE08E3 /* AppDelegate.swift */,
 				842054DC1EEE746500EE08E3 /* ViewController.swift */,
+				8420550B1EEE75BE00EE08E3 /* vandemataram.mp3 */,
 				842054DE1EEE746500EE08E3 /* Main.storyboard */,
 				842054E41EEE746500EE08E3 /* Assets.xcassets */,
 				842054E61EEE746500EE08E3 /* LaunchScreen.storyboard */,
@@ -238,6 +241,7 @@
 				842054E81EEE746500EE08E3 /* LaunchScreen.storyboard in Resources */,
 				842054E51EEE746500EE08E3 /* Assets.xcassets in Resources */,
 				842054E01EEE746500EE08E3 /* Main.storyboard in Resources */,
+				8420550C1EEE75BE00EE08E3 /* vandemataram.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

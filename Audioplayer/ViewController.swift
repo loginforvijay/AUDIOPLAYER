@@ -7,19 +7,55 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+    
+{
+    
+    
+    var audioplayer = AVAudioPlayer()
+    
+    
+    
+    @IBAction func stop(_ sender: Any)
+    {
+     audioplayer.stop()
+    }
+    @IBAction func play(_ sender: Any)
+    {
+        audioplayer.play()
+    }
+    @IBAction func restart(_ sender: Any)
+    {
+        audioplayer.currentTime = 0
+        audioplayer.play()
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      
+        do{
+            
+            let audiopath = Bundle.main.path(forResource: "vandemataram", ofType: "mp3")
+            
+            try audioplayer  = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audiopath!)as URL)
+            
+        
+        }
+        catch{
+        
+            print(error)
+            
+        }
+        
+        
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+  
 
 }
 
